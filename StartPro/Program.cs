@@ -13,11 +13,12 @@ namespace StartPro {
         static void Main(string[] args)
         {
             //言語を引数として与える
-            //enの場合はHELLo, jaの時はこんにちは出力される。
+            //enの場合はHELLO
             Localization.localize("ja");
             setA();
             setB();
 
+            //jaの時はこんにちは出力される。
             Localization.localize("en");
             setA();
             setB();
